@@ -1,0 +1,9 @@
+;(function(){
+	$('.sf').click(function(){
+		$(this).parent().addClass('sf-a');
+	});
+	$('.sf-close').click(function(){
+		$(this).parent().removeClass('sf-a');
+	});
+	$('.bg').css('height',$(document).height());
+})();
